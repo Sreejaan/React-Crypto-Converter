@@ -1,12 +1,18 @@
-# React + Vite
+# Crypto Converter App
+- A simple and responsive React-based cryptocurrency converter that allows users to convert one crypto asset to another using real-time data from the CoinGecko API.
+- Website Link : https://react-crypto-converter-opal.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tech Stack
+- React (Functional Components + Hooks)
+- CoinGecko API for real-time crypto prices
+- CSS3 for UI styling (including dark mode & layout)
+- Vite for fast React development
 
-Currently, two official plugins are available:
+### How to Run Locally
+- git clone https://github.com/Sreejaan/crypto-converter.git
+- cd crypto-converter
+- npm install
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/a4393a79-ec5f-40b7-bed2-caa914128a0e)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
